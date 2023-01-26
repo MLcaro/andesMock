@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/andesMock.iml" filepath="$PROJECT_DIR$/.idea/modules/andesMock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/andesMock.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/andesMock.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/andesMock.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/andesMock.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/andesMock.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/andesMock.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/andesMock.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/andesMock.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/andesMock.components.iml" filepath="$PROJECT_DIR$/.idea/modules/components/andesMock.components.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/andesMock.components.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/components/andesMock.components.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/andesMock.components.main.iml" filepath="$PROJECT_DIR$/.idea/modules/components/andesMock.components.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/components/andesMock.components.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/components/andesMock.components.unitTest.iml" />
     </modules>
   </component>
 </project>

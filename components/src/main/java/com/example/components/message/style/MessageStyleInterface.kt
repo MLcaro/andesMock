@@ -1,4 +1,4 @@
-package com.example.mylibrary.message.style
+package com.example.components.message.style
 
 
 interface MessageStyleInterface {

@@ -1,6 +1,6 @@
-package com.example.mylibrary.message.factory
+package com.example.components.message.factory
 
-import com.example.mylibrary.message.style.MessageStyleInterface
+import com.example.components.message.style.MessageStyleInterface
 
 internal data class MessageConfig (
     val backgroundColor: Int

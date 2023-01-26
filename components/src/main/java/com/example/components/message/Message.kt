@@ -8,13 +8,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.mylibrary.message.factory.MessageAttrs
-import com.example.mylibrary.message.factory.MessageAttrsParser
-import com.example.mylibrary.message.factory.MessageConfig
-import com.example.mylibrary.message.factory.MessageConfigFactory
-import com.example.mylibrary.R
-import com.example.mylibrary.message.style.MessageStyle
-import com.example.mylibrary.message.style.MessageStyleInterface
+import com.example.components.R
+import com.example.components.message.factory.MessageAttrs
+import com.example.components.message.factory.MessageAttrsParser
+import com.example.components.message.factory.MessageConfig
+import com.example.components.message.factory.MessageConfigFactory
+import com.example.components.message.style.MessageStyle
+import com.example.components.message.style.MessageStyleInterface
+
 
 @Suppress("TooManyFunctions")
 class Message : CardView {
@@ -72,13 +73,13 @@ class Message : CardView {
 
     private fun initComponents() {
         val container = LayoutInflater.from(context).inflate(
-            R.layout.layout_message,
+            R.layout.message_layout,
             this, true
         )
-        messageContainer = container.findViewById(R.id.message_container)
-        titleComponent = container.findViewById(R.id.textView_title)
-        subTitleComponent = container.findViewById(R.id.textView_title)
-        imageComponent = container.findViewById(R.id.imageView)
+        messageContainer = container.findViewById(R.id.message_card)
+        titleComponent = container.findViewById(R.id.message_title)
+        subTitleComponent = container.findViewById(R.id.message_subtitle)
+        imageComponent = container.findViewById(R.id.message_imageView)
 
     }
 }

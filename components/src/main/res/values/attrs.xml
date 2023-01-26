@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="message">
+
+    <attr name="messageStyle">
+        <enum name="Quiet" value="1000" />
+        <enum name="loud" value="1001" />
+
+    </attr>
+
+    <attr name="messageTitle" format="reference" />
+    <attr name="messageSubtitle" format="reference" />
+    <attr name="messageImage" format="reference" />
+
+    </declare-styleable>
+</resources>
